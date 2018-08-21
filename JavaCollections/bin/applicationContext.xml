@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="javacollections" class="com.cg.beans.JavaCollections">
+<property name="list">
+<list>
+	<value>101</value>
+	<value>103</value>
+	<value>101</value>
+	<value>104</value>
+	<value>105</value>
+</list>
+</property>
+
+<property name="hashMap">
+<map>
+
+<entry key="1" value="Nikhil"/>
+<entry key="2" value="Thakur"/>
+<entry key="One" value="Prasad"/>
+</map>
+
+</property>
+</bean>
+
+</beans>
